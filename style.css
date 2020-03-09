@@ -35,7 +35,7 @@ a:active {
 }
 
 ::selection {
-  background: rgb(0, 128, 255);
+  background: #5af;
   color: #fff;
   text-shadow: none;
 }
