@@ -166,6 +166,7 @@ a:active {
 }
 
 .cl-menu-badge {
+  border-radius: 50%;
   position: absolute;
   min-width: 20px;
   min-height: 20px;
