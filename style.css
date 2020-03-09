@@ -16,7 +16,7 @@ a, a:hover, a:visited, a:link, a:active {
   text-decoration: none;
 }
 a:hover{
-  color: #00dcff;
+  color: #0096ad;
 }
 
 a:active {
@@ -29,7 +29,7 @@ a:active {
 }
 
 ::-moz-selection {
-  background: #5af;
+  background: rgb(4, 110, 216);
   color: #fff;
   text-shadow: none;
 }
@@ -130,7 +130,6 @@ a:active {
   transition: all .2s ease-in-out;
 }
 
-.cl-toggle-btn,
 .cl-logo {
   text-decoration: none;
   position: relative;
@@ -151,16 +150,12 @@ a:active {
   margin-right: 10px;
 }
 
-.cl-toggle-btn:hover {
-  color: #00dcff;
-}
-
 .cl-menu-item {
   position: relative;
   padding: 0 5px;
   line-height: 30px;
   height: 30px;
-  color: #242020;
+  color: #4492b1;
   z-index: 5;
   display: inline-block;
 }
@@ -168,7 +163,6 @@ a:active {
 .cl-badge {
   height: 20px;
   color: white;
-  border-clius: 10px;
   line-height: 20px;
   font-size: 12px;
   background: rgb(55, 225, 255);
@@ -184,14 +178,13 @@ a:active {
   line-height: 20px;
   font-weight: bold;
   color: white;
-  border-clius: 100%;
   font-size: 12px;
-  background: rgb(55, 225, 255);
+  background: rgb(0, 116, 136);
   box-shadow: 0.5px 0.2px 1px rgba(0, 0, 0, 0.5);
   display: inline-block;
   text-align: center;
   top: -10px;
-  z-index: 1;
+  z-index: 5;
 }
 
 .sm-menu {
