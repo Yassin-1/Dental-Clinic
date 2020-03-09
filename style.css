@@ -114,7 +114,12 @@ a:active {
   vertical-align: middle;
   margin-left: 30px;
 }
+.container{
+  
+  position: absolute; left: 17%; top: 12%;
 
+
+}
 .cl-logo-container {
   width: 225px;
   text-align: center;
@@ -601,3 +606,4 @@ a:active {
     -webkit-transform: translate3d(-200px, 0, 0);
             transform: translate3d(-200px, 0, 0);
   }
+}
