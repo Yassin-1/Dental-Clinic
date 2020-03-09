@@ -15,10 +15,6 @@ body {
 a, a:hover, a:visited, a:link, a:active {
   text-decoration: none;
 }
-a:hover{
-  color: #0096ad;
-}
-
 a:active {
   color: #fff !important;
 }
@@ -257,46 +253,6 @@ a:active {
 .cl-dropmenu-footer {
   border-top: 1px solid #CFD8DC;
 }
-
-.cl-chk-pin {
-  margin: 0 !important;
-}
-.cl-chk-pin span {
-  display: inline-block;
-  position: relative;
-  height: 20px;
-  width: 40px;
-  border-clius: 4px;
-  background: crimson;
-  border: 1px solid #f6f6f6;
-}
-.cl-chk-pin span:after {
-  content: "";
-  position: absolute;
-  background: white;
-  width: 20px;
-  height: 20px;
-  border-clius: 4px;
-  top: -1px;
-  left: 0px;
-  box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
-}
-.cl-chk-pin input {
-  display: none;
-}
-.cl-chk-pin input:checked + span {
-  background: #23AE89;
-}
-.cl-chk-pin input:checked + span:after {
-  left: 19px;
-}
-
-.hide {
-  display: none;
-}
-
 .cl-option-selected {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 -2px 4px rgba(0, 0, 0, 0.2);
   -webkit-transform: scale(1.1);
@@ -332,7 +288,7 @@ a:active {
   z-index: 9999;
   position: fixed;
   font-weight: 600;
-  background: white !important;
+  background: rgb(41, 41, 41) !important;
   width: 225px;
   height: 100vh;
   top: 50px;
@@ -454,12 +410,6 @@ a:active {
   -webkit-transform: scale(1.2, 1);
           transform: scale(1.2, 1);
 }
-  .flat-theme .cl-toggle-btn {
-    right: 20px !important;
-  }
-  .flat-theme .cl-top-nav-container .links:last-child {
-    display: none;
-  }
 @media screen and (min-width: 850px) {
   .cl-logo-container {
     height: 75px;
@@ -484,69 +434,8 @@ a:active {
     top: 100px;
   }
 
-  .flat-theme .cl-toggle-btn {
-    top: 20px !important;
-  }
 }
 @media screen and (max-width: 850px) {
-  .flat-theme .cl-menu-badge {
-    top: -3px;
-  }
-  .flat-theme .cl-toggle-btn {
-    right: 20px !important;
-  }
-  .flat-theme .cl-body-wrapper {
-    top: 125px !important;
-  }
-  .flat-theme .cl-sidebar {
-    position: absolute;
-  }
-  .flat-theme .cl-navigation {
-    position: absolute;
-  }
-  .flat-theme .cl-navigation .links > li:first-child {
-    margin-left: 15px !important;
-  }
-  .flat-theme.sticky .cl-logo-container {
-    z-index: 10000;
-  }
-  .flat-theme.sticky .cl-logo-container .cl-toggle-btn {
-    color: #89949B !important;
-    position: fixed;
-    right: 120px !important;
-    background: #f6f6f6;
-    top: 11px;
-  }
-  .flat-theme.sticky .cl-logo-container .cl-toggle-btn:hover {
-    background:#55acee;
-    color: #fff !important;
-  }
-  .flat-theme.sticky .cl-navigation {
-    height: 50px;
-  }
-  .flat-theme.sticky .cl-sidebar {
-    top: 50px;
-    position: fixed;
-  }
-  .flat-theme.sticky .cl-top-nav-container {
-    background: #FFF important;
-    box-shadow: 0 0px 9px 4px rgba(0, 0, 0, 0.1), 0 -5px 2px 2px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  .flat-theme.sticky .links {
-    margin-left: 50px;
-  }
-  .flat-theme.sticky .brand-icon {
-    margin-left: 0px;
-  }
-  .flat-theme.sticky .brand-icon:hover {
-    color: #fff;
-  }
-
   .cl-navigation {
     height: 100px;
   }
