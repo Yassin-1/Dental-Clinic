@@ -309,7 +309,7 @@ a:active {
 .cl-sidebar li a {
   text-decoration: none;
   display: block;
-  color: #515d6e;
+  color: #ffffff;
 }
 .cl-sidebar li a i {
   position: relative;
@@ -334,13 +334,14 @@ a:active {
 }
 .cl-sidebar li:hover {
   background: #f2f2f2;
+  color: #333;
 }
 .cl-sidebar li:hover .icon-bg {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
 .cl-sidebar li:hover a > i {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .icon-bg {
   position: absolute;
@@ -402,9 +403,9 @@ a:active {
 }
 .cl-sidebar.cl-nav-min i {
   border: 0px;
-  color: rgb(65, 65, 65);
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
+  color: rgb(255, 255, 255);
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
 }
 .cl-sidebar.cl-nav-min li:hover .icon-bg {
   -webkit-transform: scale(1.2, 1);
@@ -417,7 +418,7 @@ a:active {
   .cl-logo-container .cl-logo {
     line-height: 75px;
   }
-  .cl-logo-container .cl-toggle-btn {
+  .cl-logo-container {
     line-height: 75px;
     height: auto;
   }
@@ -448,7 +449,7 @@ a:active {
   .cl-logo-container.cl-nav-min .cl-logo {
     opacity: 1;
   }
-  .cl-logo-container.cl-nav-min + .cl-logo-hidden {
+  .cl-logo-container.cl-nav-min {
     display: none;
   }
 
