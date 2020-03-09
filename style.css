@@ -29,7 +29,7 @@ a:active {
 }
 
 ::-moz-selection {
-  background: #5af;
+  background: rgb(4, 110, 216);
   color: #fff;
   text-shadow: none;
 }
