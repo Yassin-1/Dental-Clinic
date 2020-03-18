@@ -564,3 +564,62 @@ a:active {
   margin-bottom: 0px;
   list-style: none;
 }
+
+.g-general{
+  position: relative;
+  align-content: center;
+  /* width: 1004px; */
+  height: 625px;
+  margin-left: 460px;
+  bottom: 20px;
+  right: 15px;
+}
+.col .form-control{
+  display: block;
+  width: 50%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-group, .btn-group-vertical {
+  padding-left: 15px;
+  padding-bottom: 40px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.btn-group>.btn-group:last-child:not(:first-child)>.btn:first-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 34px;
+  margin-left: -14px;
+}
+.open>.dropdown-menu {
+  display: inline-block;
+  top: 32px;
+}
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+.btn-group-lg>.btn, .btn-block{
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  display: block;
+  width: 30%;
+  margin: auto;
+}
