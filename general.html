@@ -28,37 +28,34 @@
           <div class="col">
               <input type="text" class="form-control" placeholder="Last name">
           </div>
+          <div class="col">
+            <input type="number" class="form-control" placeholder="phone number">
+        </div>
         </div>
         <br>
-        <button type="button" class="btn btn-secondary btn-sm" style="margin-left:170px;">Change name</button>
+        <div class="security">
+          
+            <div class="col">
+              <p>Security</p>
+              <hr>
+              <input type="email" class="form-control" placeholder="E-mail">&nbsp;<a href="#"><strong>Change</strong></a>
+              <input type="password" class="form-control" placeholder="password">&nbsp;<a href="#"><strong>Change</strong></a>
+            </div>
+        </div>
         <br>
-        <p class="font-weight-bold"> Change your E-mail</p>
-        <div class="form-group row">
-            <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="colFormLabel" placeholder="E-mail">
-              <br>
-              <button type="button" class="btn btn-secondary btn-sm" >Change email</button>
-
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+          <p>Pick your langage</p>
+          <button type="button" class="btn btn-primary">Choose a lang..</button>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" style="">
+              <a class="dropdown-item" href="#">English</a>
+              <a class="dropdown-item" href="#">Arabic</a>
             </div>
           </div>
-<br>
-<p class="font-weight-bold"> Change your phone number</p>
-<iframe src="menu/menu.html" height="80px" width="300px"></iframe>
-<br>
-<button type="button" class="btn btn-secondary btn-sm"style="margin-left:170px;" >Change Number</button>
-
-
-
-
-        <br>
-        <p class="font-weight-bold"> Select your language</p>
-        <select class="selectpicker" >
-            <option data-content='<span class="flag-icon flag-icon-us"></span> English'></option>
-             <option  data-content='<span class="flag-icon flag-icon-sa"></span> Arabic'></option>
-        </select>
+        </div>
+      <button type="button" class="btn btn-primary btn-lg btn-block">Save changes</button>
     </form>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
