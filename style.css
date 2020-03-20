@@ -623,3 +623,40 @@ a:active {
   width: 30%;
   margin: auto;
 }
+.c-form {
+  min-width: 0;
+  padding-left: 15px;
+  margin: 0;
+  border: 0;
+}
+.form-group .form-control{
+  width: 40%;
+  margin-left: 10px;
+}
+.c-forma{
+  display: flex;
+  width: 60%;
+  padding-top: 10px;
+  align-items: center;
+}
+.form-check{
+  display: flex;
+  width: 60%;
+  padding-top: 50px;
+  align-items: center;
+  padding-left: 0px;
+}
+.custom-control {
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 10.5rem;
+}
+.label {
+  display: flex;
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 2;
+  color: #343a40;
+  white-space: nowrap;
+}
