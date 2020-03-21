@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased !important;
 }
 
-a, a:hover, a:visited, a:link, a:active {
+a, a:hover, a:visited, a:link, a:active, a:focus {
   text-decoration: none;
 }
 a:active {
@@ -631,7 +631,6 @@ a:active {
 }
 .form-group .form-control{
   width: 40%;
-  margin-left: 10px;
 }
 .c-forma{
   display: flex;
@@ -648,15 +647,48 @@ a:active {
 }
 .custom-control {
   position: relative;
-  display: block;
+  display: flex;
   min-height: 1.5rem;
   padding-left: 10.5rem;
 }
-.label {
+.c-forma>.label {
   display: flex;
   font-size: 100%;
   font-weight: 700;
   line-height: 2;
   color: #343a40;
   white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  padding: 0px;
+}
+.custom-select {
+  display: flex;
+  width: 160px;
+  height: 34px;
+  padding-left: 10px;
+  font-size: 10px;
+  /* font-weight: 400; */
+  line-height: 1.5;
+  color: #495057;
+  vertical-align: middle;
+  background: #fff url( xmlns='http://www.w3.org/2000/svg' width='4'  fill='23343a40' d='M2 0L0 2h4zm0 5L0 3h4z') no-repeat right .75rem center/8px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 0.45rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-top: 15px;
+}
+#city{
+  margin-left: 10px;
+  width: 180px;
+}
+.pay-cash{
+  color: rgb(53, 158, 255);
+  text-decoration: none;
+}
+a:focus, a:hover{
+  color: rgb(20, 141, 255);
+  text-decoration: none;
 }
