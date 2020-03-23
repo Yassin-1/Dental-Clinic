@@ -166,21 +166,20 @@
                           </header>
                     <br>
                    
-                    <div class="shadow p-4 mb-4 bg-white" >
-                    
-                        <div class="form-group col-md-6">
-                            <label for="inputname">Name</label>
+                    <div class="shadow p-4 mb-4 bg-white" style="width: 50%; height: 650px; float: left;">
+                        <div class="form-group col-md-6" style="display: inline;">
+                            <label for="inputname">  Name</label>
                             <input type="text" class="form-control" id="inputname" placeholder=""> 
                           </div>
-                          <div class="form-group col-md-6">
+                          <div class="form-group col-md-6" style="display: inline;">
                           <label for="inputlastname">Last Name</label>
-                            <input type="text" class="form-control" id="inputlastname" placeholder="">
+                            <input type="text" class="form-control" id="inputlastname" placeholder=""> 
                         </div>
-                          <div class="form-group col-md-6">
+                          <div class="form-group col-md-6" style="display: inline;">
                             <label for="inputCity">Note</label>
                             <textarea class="form-control" id="inputCity"> </textarea> 
                           </div>
-                          <div class="form-group col-md-4">
+                          <div class="form-group col-md-4" style="display: inline;">
                             <label for="inputState">Reminder</label>
                             <select id="inputState" class="form-control">
                               
@@ -188,25 +187,27 @@
                               <option value="sms">SMS</option>
                             </select>
                           </div>
-                         
+                          <div class="shadow p-4 mb-4 bg-white" style="margin-top: 200px;">
+                            <ul class="pagination" style="margin-left: 40%;">
+                                <li class="page-item ">
+                                  <a class="page-link"  tabindex="-1" target="_self">Previous</a>
+                                </li>
+                                <li li class="page-item active"><a class="page-link">1 <span class="sr-only">(current)</span></a></li>
+                                <li class="page-item ">
+                                  <a class="page-link" href="appointment2.html" target="_self">2 </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#" target="_self">3</a></li>
+                                <li class="page-item">
+                                  <a class="page-link" href="appointment2.html" target="_self">Next</a>
+                                </li>
+                              </ul>
+                        </div>
                     </div>
-                    <div class="shadow p-4 mb-4 bg-white" >
-
-                        <iframe src="calendar/calendar/dist/index.html" width="890px" height="1000px"></iframe>
-                        <ul class="pagination" style="margin-left: 40%;">
-                            <li class="page-item ">
-                              <a class="page-link"  tabindex="-1" target="_self">Previous</a>
-                            </li>
-                            <li li class="page-item active"><a class="page-link">1 <span class="sr-only">(current)</span></a></li>
-                            <li class="page-item ">
-                              <a class="page-link" href="appointment2.html" target="_self">2 </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#" target="_self">3</a></li>
-                            <li class="page-item">
-                              <a class="page-link" href="appointment2.html" target="_self">Next</a>
-                            </li>
-                          </ul>
+                    <div class="shadow p-4 mb-4 bg-white" style="width: 50%; float: right; height: 650px;">
+                        <iframe style="width: 100%; height: 550px; background-color: brown;" src="date/jquery.simple-dtpicker.html"> f </iframe>
+                    
                     </div>
+                    
                 </div>
                </section>
 </main>
