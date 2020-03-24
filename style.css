@@ -37,8 +37,7 @@ a:active {
 }
 
 .cl-page-title {
-  margin-bottom: 20px;
-  text-shadow: 1px 4px 6px #c6c6c6, 0 0 0 #000, 1px 4px 6px #c6c6c6;
+  margin-bottom: 55px;
 }
 .cl-page-title span {
   font-size: 22px;
@@ -113,7 +112,7 @@ a:active {
 .container{
   
   position: absolute; left: 17%; top: 12% ;
-  
+  box-decoration-break: slice;
 
 
 }
@@ -691,4 +690,11 @@ a:active {
 a:focus, a:hover{
   color: rgb(20, 141, 255);
   text-decoration: none;
+}
+.box {
+  display: inline;
+  margin-left: 100px;
+}
+.p-4 {
+  padding: 2.5rem!important;
 }
