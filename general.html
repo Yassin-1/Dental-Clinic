@@ -21,9 +21,8 @@
     <form>
         <div class="general">
           <div class="col">
-              <p class="font-weight-bold" >General</p>
-              <hr>
-              <input type="text" class="form-control" placeholder="First name">
+              <legend>General</legend>
+              <input type="text" id="gen" class="form-control" placeholder="First name">
           </div>
           <div class="col">
               <input type="text" class="form-control" placeholder="Last name">
@@ -36,19 +35,16 @@
         <div class="security">
           
             <div class="col">
-              <p>Security</p>
-              <hr>
-              <input type="email" class="form-control" placeholder="E-mail">&nbsp;<a href="#"><strong>Change</strong></a>
+             <legend>Security</legend>
+              <input type="email" class="form-control" id="sec" placeholder="E-mail">&nbsp;<a href="#"><strong>Change</strong></a>
               <input type="password" class="form-control" placeholder="password">&nbsp;<a href="#"><strong>Change</strong></a>
                          
             </div>
         </div>
         <br>
-        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-         
-          <p>Choose your langage</p>
-          <hr style="width: 850px;">
-          <button type="button" class="btn btn-primary" style="width: fit-content;">Choose a lang...</button>
+        <div class="btn-group">
+         <legend>Change your langage</legend>
+          <button type="button" class="btn btn-primary" id="lang" style="width: fit-content;">Choose a lang...</button>
           <div class="btn-group" role="group">
             <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
             <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" style="width: fit-content;">
@@ -75,8 +71,6 @@
 <script> $(function(){
     $('.selectpicker').selectpicker();
 }); 
-
-
 
 </script>
 <!-- partial -->
