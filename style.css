@@ -780,7 +780,7 @@ a:hover {
 
 .p-4 {
   padding: 2.5rem !important;
-  background-color: #9adced;
+  border-radius: 3px;
 }
 
 .col-xl-4,
