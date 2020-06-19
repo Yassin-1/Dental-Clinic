@@ -25,6 +25,10 @@
 		href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?themeRevisionID=5dca5ac9a5e86d17235d90c1" />
 	<link type="text/css" rel="stylesheet"
 		href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.18248" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="ass/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="ass/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="ass/css/style.css">
@@ -5530,6 +5534,71 @@
 		<input type="hidden" name="formID" value="201567068931560" />
 		<input type="hidden" id="JWTContainer" value="" />
 		<input type="hidden" id="cardinalOrderNumber" value="" />
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+			View appointments
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="exampleModalLabel">Current appointments</h3>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="table-responsive">
+							<table class="datatable table table-hover table-center">
+								<thead>
+									<tr>
+										<th>Description</th>
+										<th>Appointment ID</th>
+										<th>Date</th>
+										<th>Total Amount</th>
+										<th class="text-center">Status</th>
+										<th class="text-right">Actions</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Falling teath treatement</td>
+										<td><a href="prescription.html">Appo-023</a></td>
+										<td>9 Sep 2019</td>
+										<td>100.00$</td>
+										<td class="text-center">
+											<span class="badge badge-pill bg-success inv-badge">Paid</span>
+										</td>
+										<td class="text-right">
+											<div class="actions">
+
+												<a class="btn btn-sm bg-success-light mr-2">
+
+													<i class="fe fe-pencil"></i> <span
+														class="badge badge-pill bg-success inv-badge">Edit</span>
+												</a>
+												<a class="btn btn-sm bg-danger-light">
+
+													<i class="fe fe-trash"></i> <span
+														class="badge badge-pill bg-success inv-badge">Delete</span>
+												</a>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div role="main" class="form-all">
 			<ul class="form-section page-section">
 				<li id="cid_1" class="form-input-wide" data-type="control_head">
@@ -6128,6 +6197,7 @@
 </body>
 
 </html>
+
 <script type="text/javascript">
 	JotForm.ownerView = true;
 </script>
